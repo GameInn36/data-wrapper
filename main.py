@@ -1,5 +1,6 @@
 from igdb.wrapper import IGDBWrapper
 from igdb.igdbapi_pb2 import GameResult
+import json
 
 wrapper = IGDBWrapper("wuhffr4x99fxpjxkp92msukdhqbl4u", "44e0zgdqkszuraanop58ucrnde1zcv")
 
@@ -12,11 +13,17 @@ byte_array = wrapper.api_request(
 # parse into JSON however you like...
 
 
-byte_array = wrapper.api_request(
+genres_byte_array = wrapper.api_request(
             'genres',
-            'fields id, name; offset 0; where id=25;'
+            'fields id, name; limit 100;'
           )
-print(byte_array)
+
+
+genres_json = json.loads(genres_byte_array)
+file = open('genres.json', 'w')
+json.dump(genres_json, file)
+file.close()
+
 
 # Protobuf API request
 """
