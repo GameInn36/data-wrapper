@@ -1,0 +1,21 @@
+GAME
+    id int
+    name string
+    summary string
+    genres string[]
+    developer string
+    platform string[] (sadece android, ios, pc, playstation 5, playstation 4, xbox series x|s, xbox one)
+    first_release_date unix timestamp
+    cover image
+
+
+valid platform ids
+    34
+    39
+    6
+    167
+    48
+    169
+    49
+
+
