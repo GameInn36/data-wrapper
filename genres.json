@@ -1,5 +1,9 @@
 [
     {
+        "id": 2,
+        "name": "Point-and-click"
+    },
+    {
         "id": 4,
         "name": "Fighting"
     },
@@ -52,12 +56,12 @@
         "name": "Tactical"
     },
     {
-        "id": 26,
-        "name": "Quiz/Trivia"
-    },
-    {
         "id": 25,
         "name": "Hack and slash/Beat 'em up"
+    },
+    {
+        "id": 26,
+        "name": "Quiz/Trivia"
     },
     {
         "id": 30,
@@ -68,6 +72,10 @@
         "name": "Adventure"
     },
     {
+        "id": 32,
+        "name": "Indie"
+    },
+    {
         "id": 33,
         "name": "Arcade"
     },
@@ -76,19 +84,11 @@
         "name": "Visual Novel"
     },
     {
-        "id": 32,
-        "name": "Indie"
-    },
-    {
         "id": 35,
         "name": "Card & Board Game"
     },
     {
         "id": 36,
         "name": "MOBA"
-    },
-    {
-        "id": 2,
-        "name": "Point-and-click"
     }
 ]
